@@ -9,18 +9,18 @@ h1 {
 /*Størrelsen på bildene*/
 img {
   width: 500px;
-  height: 300px;
+  height: 500px;
 }
 
 /* Kossen alle boxane er*/
-.subjectContainer {
+.infoContainer {
   display:grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns:13.3cm;
   color:black;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.subjectBox {
+.infoBox {
   border: 2px solid black;
   background-color: whitesmoke;
 }
@@ -69,6 +69,8 @@ color: black;
 
 /* Skifte farge på Fanen du er innpå kanppen i menyen*/
 .topnav a.active {
-background-color: #04AA6D;
+background-color:cadetblue;
 color: white;
 }
+
+
