@@ -85,10 +85,11 @@ main {
 
 footer {
   margin-top: auto;
-  position: fixed;
+  position:relative;
   bottom: 0;
 }
 a {
   color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
