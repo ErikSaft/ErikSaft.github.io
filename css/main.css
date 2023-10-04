@@ -5,7 +5,6 @@ h1 {
   
 }
 
-
 /*Størrelsen på bildene*/
 img {
   width: 500px;
@@ -39,6 +38,12 @@ img {
   color: black;
   
 }
+.center-main {
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 /*Navigasjonen på toppen av menyen*/ 
 .topnav {
@@ -51,9 +56,9 @@ overflow: hidden;
 float: left;
 color: #f2f2f2;
 text-align: center;
-padding: 14px 16px;
+padding: 14px 100px;
 text-decoration: none;
-font-size: 17px;
+font-size: 20px;
 }
 
 /* Knappane skifter farge når musepeikeren er over den*/
@@ -69,10 +74,8 @@ color: white;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main {
@@ -89,10 +92,10 @@ a {
   
 }
 .center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 .subjectContainer {
   display:grid;
@@ -100,7 +103,6 @@ width: auto;
   color:black;
   
 }
-
 
 #bilder {
   width: auto;
@@ -111,4 +113,5 @@ width: auto;
   width: auto;
   height: 169px;
 }
-  
+
+
