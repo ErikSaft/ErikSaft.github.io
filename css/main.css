@@ -114,4 +114,23 @@ a {
   height: 169px;
 }
 
+.prodhistContainer {
+  display:grid;
+  grid-template-columns:auto auto;
+  color:black;
+}
 
+#wire {
+  width: auto;
+  height: 250px;
+}
+
+#blom {
+  width:auto;
+
+}
+
+#dyr {
+  width: 500px;
+  height: 400px;
+}
