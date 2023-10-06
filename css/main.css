@@ -49,6 +49,7 @@ img {
 .topnav {
 background-color: #333;
 overflow: hidden;
+margin-bottom: 50px;
 }
 
 /* Kossen menyen ser ut*/
@@ -133,4 +134,10 @@ a {
 #dyr {
   width: 500px;
   height: 400px;
+}
+
+.arduinoContainer {
+  display:grid;
+  grid-template-columns:auto auto;
+  color:black;
 }
