@@ -6,4 +6,4 @@ if(alder >= 18) {
     console.log("Du er gammel nok til å kjøre moped");
 } else {
     console.log("Du er desverre kje gammal nok");
-}65
+}
