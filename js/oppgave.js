@@ -1,6 +1,9 @@
-var tall1 = 4;
-var tall2 = 7; 
-var tall3 = tall2;
-var tall4 = tall3 + tall1 + 5;
-var tekst = "Hei på deg";
-console.log(tall4);
+var alder = prompt("Kor gammal er du?");
+
+if(alder >= 18) {
+    console.log("Du er gammeø nok til å kjøre bil");
+} else if(alder >= 16) {
+    console.log("Du er gammel nok til å kjøre moped");
+} else {
+    console.log("Du er desverre kje gammal nok");
+}65
