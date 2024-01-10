@@ -27,5 +27,5 @@ header.innerText = "Velkommen, " + firstName;
 
 function buttonClick() {
     
-    document.getElementById("header").style.display = "none";     
+    document.getElementById("header").style.display = "none";    
 }
