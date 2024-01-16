@@ -172,16 +172,20 @@ a {
 #wire {
   width: auto;
   height: 250px;
+  border: solid 5px black;
 }
 
 #blom {
-  width:auto;
+  width:410px;
+  height: 250px;
+  border: solid 5px black;
 
 }
 
 #dyr {
-  width: 500px;
-  height: 400px;
+  width: 410px;
+  height: 250px;
+  border: solid 5px black;
 }
 
 .arduinoContainer {
@@ -238,3 +242,41 @@ h1 {
   text-shadow: 1 1 1px whitesmoke, 2 2 2px gray;
   font-weight: bold;
 }
+
+
+.subjectContainer {
+  display:grid;
+  grid-template-columns:auto auto auto;
+  color:black;
+  
+}
+
+#bilder {
+  width: auto;
+  height: 250px;
+  border: solid 5px black;
+}
+
+#bokomslag {
+  width: 410px;
+  height: 250px;
+  border: solid 5px black;
+}
+
+#bilderrapport {
+  width: 410px;
+  height: 500px;
+  border: solid 5px black;
+  display:grid;
+  grid-template-columns:auto auto;
+}
+
+.ruterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+

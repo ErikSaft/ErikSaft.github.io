@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/julekort.css" />
+    <title>Julekort</title>
+
+    <script src="js/julekort.js"></script>
+</head>
+<body>
+    <div class="julekortDiv">
+        <div class="overskrift">
+            <h2> Lag ditt eget julekort</h2>
+            <p>Overskrift:</p>
+            <input type="text" id="navn" placeholder="Overskrift" />
+        </div>
+
+        <div class="tekst">
+            <p>Tekst:</p>
+            <textarea id="tekst" placeholder="Tekst"></textarea> 
+        </div>
+
+        <div class="fra">
+            <p>Frå: </p> 
+            <input type="text" id="fra" placeholder="Fra" />
+        </div>
+
+        <div class="bilde">
+            <p>Bilde:    <select class="bilde">
+                <option value="images/julenisse.png">Julenisse</option>
+                <option value="images/juletre.png">Juletre</option>
+                <option value="images/reinsdyr.png">Reinsdyr</option>
+            </select> </p>
+            
+        </div>
+
+        <div class="skriftfarge">
+            <p>Skriftfarge:   <input type="color" id="skriftfarge" value="#000000"> </p>
+            
+        </div>
+
+        <div class="bgfarge">
+            <p>Bakgrunnsfarge:   <input type="color" id="bkfarge" value="#000000"> </p>
+            
+        </div>
+
+        <div class="button">
+            <button>Lag julekort</button>
+        </div>
+        
+    
+    
+    </div>
+
+    
+</body>
+</html>
