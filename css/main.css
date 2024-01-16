@@ -1,24 +1,19 @@
-
-/* Min portefølje skrifto*/
+/* Min portefølje skrifto */
 #overskrift {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   color: black;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-shadow:white 0.3px 0.3px;
+  margin: 50px 0;
   text-shadow: 0 0 3px whitesmoke, 0 0 5px gray;
 }
 
 #erik {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   color: black;
   text-align: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  text-shadow:white 0.3px 0.3px;
+  margin: 5px 0;
   text-shadow: 0 0 3px whitesmoke, 0 0 5px gray;
 }
 
@@ -27,20 +22,17 @@ ul {
   margin: 50px;
   padding: 20px;
   overflow: hidden;
-  background-color:gray;
+  background-color: gray;
   border: 3px solid black;
   border-radius: 100px;
   text-align: center;
-  margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow:white 0.3px 0.3px;
   text-shadow: 0 0 1px whitesmoke, 0 0 2px gray;
   font-weight: bolder;
   font-size: 17px;
-  
 }
 
-/*Størrelsen på bildene*/
+/* Størrelsen på bildene */
 img {
   width: 500px;
   height: 500px;
@@ -48,26 +40,19 @@ img {
 
 #forsidebilde {
   border: solid 5px black;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-/* Kossen alle boxane er*/
+/* Kossen alle boxane er */
 .infoContainer {
-  display:grid;
-  grid-template-columns:13.3cm;
-  color:black;
-  
-  
+  display: grid;
+  grid-template-columns: 13.3cm;
+  color: black;
 }
-  
 
-
-
-
-/* Må bruka # når det er id*/
-/* Bruker punktom til "class"*/
-
+/* Må bruka # når det er id */
+/* Bruker punktom til "class" */
 
 .button {
   background-color: #656262;
@@ -77,52 +62,53 @@ img {
   text-align: center;
   border: 1px solid black;
   color: black;
-  
 }
+
 .center-main {
-  align-items:center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/*Navigasjonen på toppen av menyen*/ 
+/* Navigasjonen på toppen av menyen */
 .topnav {
-background-color: #656262;
-overflow: hidden;
-margin-bottom: 50px;
+  background-color: #656262;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
 
-/* Kossen menyen ser ut*/
+/* Kossen menyen ser ut */
 .topnav a {
-font-weight: bolder;
-float: left;
-color: #000000;
-text-align: center;
-padding: 14px 100px;
-text-decoration: none;
-font-size: 20px;
-text-shadow:white 0.3px 0.3px;
-text-shadow: 0 0 1px whitesmoke, 0 0 2px gray;
-font-family: Arial, Helvetica, sans-serif;
-
+  font-weight: bolder;
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 100px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 1px whitesmoke, 0 0 2px gray;
 }
 
-/* Knappane skifter farge når musepeikeren er over den*/
+/* Knappane skifter farge når musepeikeren er over den */
 .topnav a:hover {
-background-color: rgb(154, 152, 152);
-color: black;
+  background-color: rgb(154, 152, 152);
+  color: black;
 }
 
-/* Skifte farge på Fanen du er innpå kanppen i menyen*/
+/* Skifte farge på Fanen du er innpå kanppen i menyen */
 .topnav a.active {
-background-color:rgb(197, 186, 186);
-color: rgb(0, 0, 0);
+  background-color: rgb(197, 186, 186);
+  color: rgb(0, 0, 0);
 }
 
 body {
- 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main {
@@ -134,21 +120,22 @@ footer {
   position: fixed;
   bottom: 0;
 }
+
 a {
-  color:black;
-  
+  color: black;
 }
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: auto;
 }
+
 .subjectContainer {
-  display:grid;
-  grid-template-columns:auto auto auto;
-  color:black;
-  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: black;
 }
 
 #bilder {
@@ -160,13 +147,12 @@ a {
   width: auto;
   height: 169px;
   border: solid 5px black;
-
 }
 
 .prodhistContainer {
-  display:grid;
-  grid-template-columns:auto auto;
-  color:black;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: black;
 }
 
 #wire {
@@ -176,10 +162,9 @@ a {
 }
 
 #blom {
-  width:410px;
+  width: 410px;
   height: 250px;
   border: solid 5px black;
-
 }
 
 #dyr {
@@ -189,23 +174,21 @@ a {
 }
 
 .arduinoContainer {
-  display:grid;
-  grid-template-columns:auto auto;
-  color:black;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: black;
 }
 
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bolder;
-  text-shadow:white 0.3px 0.3px;
   text-shadow: 0 0 1px whitesmoke, 0 0 2px gray;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  text-shadow:white 0.3px 0.3px;
   text-shadow: 0 0 1px whitesmoke, 0 0 2px gray;
   font-weight: bold;
 }
@@ -213,7 +196,6 @@ p {
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  text-shadow:white 0.3px 0.3px;
   text-shadow: 5 5 5px whitesmoke, 5 5 5px gray;
   font-weight: bold;
 }
@@ -221,16 +203,13 @@ h1 {
 #omskrift {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  text-shadow:white 0.3px 0.3px;
   text-shadow: 1 1 1px whitesmoke, 2 2 2px gray;
   font-weight: bold;
 }
 
-
 #omoverskrift {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  text-shadow:white 0.3px 0.3px;
   text-shadow: 5 5 5px whitesmoke, 5 5 5px gray;
   font-weight: bold;
 }
@@ -238,17 +217,14 @@ h1 {
 #kontaktskrift {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  text-shadow:white 0.3px 0.3px;
   text-shadow: 1 1 1px whitesmoke, 2 2 2px gray;
   font-weight: bold;
 }
 
-
 .subjectContainer {
-  display:grid;
-  grid-template-columns:auto auto auto;
-  color:black;
-  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: black;
 }
 
 #bilder {
@@ -267,8 +243,8 @@ h1 {
   width: 410px;
   height: 500px;
   border: solid 5px black;
-  display:grid;
-  grid-template-columns:auto auto;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .ruterContainer {
@@ -278,5 +254,3 @@ h1 {
   align-items: center;
   color: black;
 }
-
-
