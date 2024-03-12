@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tilfeldig Katt Bilde Generator</title>
+<style>
+       body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    img {
+        min-width: 300px;
+        min-height: 400px;
+        max-width: 300px;
+        max-height: 400px;
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+    <h1>Tilfeldig Katt</h1>
+    <div id="cat-info">
+        <img id="cat-image" src="" alt="Cat Image">
+        <p id="cat-fact"></p>
+    </div>
+    <button onclick="getRandomCatAndFact()">Ny katt!</button>
+    
+     <script src="js/api.js"></script>
+    
+</body>
+</html>
