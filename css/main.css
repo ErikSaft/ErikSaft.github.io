@@ -22,7 +22,7 @@ ul {
   margin: 50px;
   padding: 20px;
   overflow: hidden;
-  background-color: gray;
+  background-color: #a35aa61f;
   border: 3px solid black;
   border-radius: 100px;
   text-align: center;
@@ -55,7 +55,7 @@ img {
 /* Bruker punktom til "class" */
 
 .button {
-  background-color: #656262;
+  background-color: #a35aa670;
   width: 80px;
   padding: 20px;
   border-radius: 10px;
@@ -73,7 +73,7 @@ img {
 
 /* Navigasjonen på toppen av menyen */
 .topnav {
-  background-color: #656262;
+  background-color: #a35aa653;
   overflow: hidden;
   margin-bottom: 50px;
 }
@@ -93,13 +93,13 @@ img {
 
 /* Knappane skifter farge når musepeikeren er over den */
 .topnav a:hover {
-  background-color: rgb(154, 152, 152);
+  background-color: #8c428e33;
   color: black;
 }
 
 /* Skifte farge på Fanen du er innpå kanppen i menyen */
 .topnav a.active {
-  background-color: rgb(197, 186, 186);
+  background-color: #cb81ce8b;
   color: rgb(0, 0, 0);
 }
 
@@ -146,7 +146,7 @@ a {
 
 #ombilde {
   width: auto;
-  height: 169px;
+  height: 300px;
   border: solid 5px black;
 }
 
